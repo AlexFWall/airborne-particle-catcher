@@ -31,6 +31,24 @@ be scaled wrongly on import.
 To download the whole repository at once, use the green **Code** button above and choose
 **Download ZIP**.
 
+### QR code
+
+<img src="qr/airborne-particle-catcher-qr.png" alt="QR code linking to this repository" width="180">
+
+The QR code resolves to `https://github.com/AlexFWall/airborne-particle-catcher`. Printed
+materials can use any of:
+
+| File | Use |
+|---|---|
+| [airborne-particle-catcher-card.svg](qr/airborne-particle-catcher-card.svg) | Labelled card, 90 × 125 mm, vector. Print at any size. |
+| [airborne-particle-catcher-card.png](qr/airborne-particle-catcher-card.png) | The same card at 300 dpi, for slides. |
+| [airborne-particle-catcher-qr.svg](qr/airborne-particle-catcher-qr.svg) | Bare QR code, vector, for your own layout. |
+| [airborne-particle-catcher-qr.png](qr/airborne-particle-catcher-qr.png) | Bare QR code, 980 × 980 px. |
+
+The symbol is 41 × 41 modules at error correction level H, so it still reads with up to 30% of
+the symbol obscured or damaged. At the 62 mm printed size on the card it scans from about a
+metre away. [make_card.py](qr/make_card.py) regenerates the card and the bare symbol.
+
 ## Dimensions
 
 All dimensions are in millimetres, taken from the design files.
